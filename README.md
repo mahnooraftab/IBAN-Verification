@@ -1,5 +1,5 @@
 # IBAN-Verification rule --Laravel
-Added IBAN verification for Pakistani account using preg_match which intially checks for the pattern that is 'PK(2 check digits)(bank abbreviation--4 characters)(16 digits account number)'
+Added IBAN verification for Pakistani bank account using preg_match which intially checks for the pattern that is 'PK(2 check digits)(bank abbreviation--4 characters)(16 digits account number)'
 After that followed the steps:
 1. Move the two alphabetic character country code and check digit pair from the
     front of the IBAN to back 
